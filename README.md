@@ -36,13 +36,9 @@ fyp-news-sentiment-515000/
 ├── 04_factor_regression/      # 因子构建与回归
 │   ├── build_sentiment_factor.py  # 日度情绪因子构建
 │   └── regression.py              # Carhart 四因子 + 情绪因子回归
-├── 05_report/                 # 报告生成
-│   ├── make_report.py             # HTML 交互报告（ECharts）
-│   └── make_word_report.py        # Word 报告 + 图表 PNG
-└── 06_csmar_check/            # CSMAR 数据验证
-    ├── csmar_diag.py
-    ├── csmar_verify.py
-    └── csmar_verify2.py
+└── 05_report/                 # 报告生成
+    ├── make_report.py             # HTML 交互报告（ECharts）
+    └── make_word_report.py        # Word 报告 + 图表 PNG
 ```
 
 ## 研究流程（Pipeline）

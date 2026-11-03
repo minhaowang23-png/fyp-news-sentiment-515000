@@ -1,0 +1,24 @@
+# 数据文件（体积大，不进仓库）
+*.jsonl
+*.csv
+*.xlsx
+*.xls
+*.json
+*.png
+*.docx
+*.html
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# 密钥（本地配置）
+config.py
+.env
+
+# 系统
+.DS_Store
+Thumbs.db

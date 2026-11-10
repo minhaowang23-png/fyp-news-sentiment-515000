@@ -9,7 +9,7 @@
 import requests, json, os, time, sys, subprocess
 from datetime import datetime, timedelta
 
-TOKEN = "YOUR_TUSHARE_RELAY_TOKEN"
+TOKEN = "f26a5f9e7d0e0c045a7eee1bbb11c402ffd4458f357995f7c7a9dc67"
 BASE = "https://t.xiaodefa.top/"
 OUT_DIR = r"D:\mth301财经新闻数据"
 PROGRESS_FILE = os.path.join(OUT_DIR, "_progress.txt")
